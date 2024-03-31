@@ -14,7 +14,7 @@ public class Main {
 
         Solution solution = new Solution();
 
-        System.out.print("First list: \n");
+        System.out.print("List: \n");
         solution.printLinkedList(head);
 
         ListNode reversedHead = solution.reverseList(head);
@@ -22,7 +22,7 @@ public class Main {
         solution.printLinkedList(reversedHead);
 
         // simple reverse
-        LinkedList<Integer> simpleReverse = new LinkedList<>(List.of(10,20,30,40,50));
+        LinkedList<Integer> simpleReverse = new LinkedList<>(List.of(10, 20, 30, 40, 50));
         Collections.reverse(simpleReverse);
 
         System.out.println("Simple reverse : \n" + simpleReverse);

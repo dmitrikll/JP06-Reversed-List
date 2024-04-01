@@ -18,14 +18,14 @@ public class Main {
         solution.printLinkedList(head);
 
         ListNode reversedHead = solution.reverseList(head);
-        System.out.print("Reverse list: \n");
+        System.out.print("\nReverse list: \n");
         solution.printLinkedList(reversedHead);
 
         // simple reverse
         LinkedList<Integer> simpleReverse = new LinkedList<>(List.of(10, 20, 30, 40, 50));
         Collections.reverse(simpleReverse);
 
-        System.out.println("Simple reverse : \n" + simpleReverse);
+        System.out.println("\nSimple reverse : \n" + simpleReverse);
 
     }
 }
